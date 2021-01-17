@@ -476,6 +476,5 @@ PRODUCT_PACKAGES += \
     libmediaextractorservice
 
 PRODUCT_BOOT_JARS += \
-    WfdCommon \
     qcom.fmradio \
     qcom.fmradio_product
