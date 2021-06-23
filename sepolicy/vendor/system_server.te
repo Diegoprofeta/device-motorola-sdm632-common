@@ -11,3 +11,6 @@ allow system_server hal_audio_default:binder { call transfer };
 
 # App Lock
 add_service(system_server, applock_service);
+
+# Smart charging
+allow system_server sysfs_battery_supply:file rw_file_perms;
